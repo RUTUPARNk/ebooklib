@@ -4,6 +4,8 @@ from ebooklib import epub
 from ebooklib import ITEM_DOCUMENT
 from lxml import etree
 import re
+from tools.extract_chapters_lib import extract_chapter_titles
+
 
 def clean_title(title):
     """Clean and validate a title."""
